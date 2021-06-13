@@ -1,0 +1,30 @@
+{
+  "name": "pr2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.14.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server src",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sedoy113/ajs2.git"
+  },
+  "author": "sedoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sedoy113/ajs2/issues"
+  },
+  "homepage": "https://github.com/sedoy113/ajs2#readme"
+}
